@@ -1,0 +1,36 @@
+import styled from "styled-components";
+
+export const InputContainer = styled.div`
+  inline-size: 100%;
+  block-size: 75px;
+  background-color: #AAFFAA;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  font-size: 24px;
+  font-family: 'Roboto';
+  
+
+  input {
+     inline-size: 100%;
+     block-size: 75px;
+     background-color: #AAAAFF;
+     border: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     padding: 0 10px;
+     font-size: 24px;
+      font-family: 'Roboto';
+      color: #FFFFFF;
+
+  }
+
+`;
+
+
+
+
+
